@@ -15,6 +15,7 @@ $('.aframe').aFrame({
 
 
 LICENSE
+-------
 
 Copyright (c) 2013, Tristan Smith
 
