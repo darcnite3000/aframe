@@ -14,7 +14,7 @@
     "iframe"
   ],
   "author": "Tristan Smith",
-  "license": "BSD",
+  "license": "MIT",
   "devDependencies": {
     "grunt-contrib-coffee": "~0.7.0",
     "grunt-contrib-uglify": "~0.2.0",
