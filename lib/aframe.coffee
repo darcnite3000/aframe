@@ -64,7 +64,8 @@ $.fn.extend
         frameUpdate = (data, status, xhr)->
           $this.children().remove()
           $this.append data
-          UrlHashbang.update setup.tag, setup.data
+          if setup.tag? and setup.tag != ''
+            UrlHashbang.update setup.tag, setup.data
           settings.callbacks.onLoad $this, setup, data
         adata = $.extend true, {}, setup.data
         delete adata['url']
