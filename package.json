@@ -1,0 +1,26 @@
+{
+  "name": "aframe",
+  "version": "0.0.0",
+  "description": "BROWSER - jQuery - A tool that makes an ajax powered section that seems like an iframe",
+  "main": "aframe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "browser",
+    "jquery",
+    "ajax",
+    "iframe"
+  ],
+  "author": "Tristan Smith",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-livereload": "~0.1.2",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt": "~0.4.1",
+    "bower": "~0.8.6"
+  }
+}
